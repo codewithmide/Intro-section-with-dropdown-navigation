@@ -8,13 +8,13 @@ const companyOpenArrow = document.querySelector('.cmp-open-arrow');
 const companyCloseArrow = document.querySelector('.cmp-close-arrow')
 
 feature.addEventListener("click", () => {
-    featureDropdown.classList.remove('hidden');
+    featureDropdown.classList.toggle('hidden');
     openArrow.style.display = "none"
     closeArrow.style.display = "inline"
 })
 
 company.addEventListener("click", () => {
-    companyDropdown.classList.remove('hidden');
+    companyDropdown.classList.toggle('hidden');
     companyOpenArrow.style.display = "none"
     companyCloseArrow.style.display = "inline"
 })
