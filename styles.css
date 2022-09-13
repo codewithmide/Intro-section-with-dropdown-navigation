@@ -333,7 +333,7 @@ h1 {
         top: 0;
         right: 0;
         z-index: 1;
-        padding: 30px 30px 20px 0;
+        padding: 30px;
     }
     .closebtn {
         width: 100%;
