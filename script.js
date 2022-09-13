@@ -18,3 +18,22 @@ company.addEventListener("click", () => {
     companyOpenArrow.style.display = "none"
     companyCloseArrow.style.display = "inline"
 })
+
+// Mobile view
+const menubtn = document.querySelector(".menu");
+const sidebar = document.getElementById("sidebar");
+
+menubtn.addEventListener("click", () => {
+    menubtn.style.display = "none";
+    sidebar.classList.remove = "hide-sidebar";
+    sidebar.style.display = "block"
+})
+
+
+// close sidebar mobile
+const closeSidebar = document.querySelector(".mobile-close");
+
+closeSidebar.addEventListener("click", () => {
+    sidebar.style.display = "none";
+    menubtn.style.display = "block";
+})

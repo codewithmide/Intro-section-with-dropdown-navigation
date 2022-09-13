@@ -246,7 +246,8 @@ h1 {
 }
 
 .sidebar {
-    display: none;
+    position: fixed;
+    right: -60%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -378,5 +379,9 @@ h1 {
 
     .mobile-ul > li > a{
         margin-right: .2rem;
+    }
+
+    .hide-sidebar {
+        display: none;
     }
 }
