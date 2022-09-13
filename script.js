@@ -22,6 +22,7 @@ company.addEventListener("click", () => {
 // Mobile view
 const menubtn = document.querySelector(".menu");
 const sidebar = document.getElementById("sidebar");
+const mobileDropdown = document.querySelector(".mobile-company-dropdown");
 
 menubtn.addEventListener("click", () => {
     menubtn.style.display = "none";
@@ -36,4 +37,17 @@ const closeSidebar = document.querySelector(".mobile-close");
 closeSidebar.addEventListener("click", () => {
     sidebar.style.display = "none";
     menubtn.style.display = "block";
+})
+
+const mobileDrop = document.querySelector(".mobile-drop");
+const mobileDropCompany = document.querySelector(".mobile-drop-company");
+const mobileFD = document.querySelector(".mobile-feature-dropdown");
+const mobileFDC =  document.querySelector(".mobile-company-dropdown")
+
+mobileDrop.addEventListener("click", () => {
+    mobileFD.style.display = "flex";
+})
+
+mobileDropCompany.addEventListener("click", () => {
+    mobileFDC.style.display = "flex";
 })
