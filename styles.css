@@ -312,6 +312,10 @@ h1 {
         align-items: center;
         justify-content: space-evenly;
     }
+    .clients > img {
+        width: 18%;
+    }
+
     .attribution {
         bottom: 0;
     }
